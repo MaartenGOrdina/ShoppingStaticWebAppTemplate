@@ -8,8 +8,8 @@ import { Product } from './_models/overview.model';
 })
 export class ProductOverviewComponent implements OnInit {
   products: Product[] = [
-    {id: '1', name: 'Shoes', price: 40},
-    {id: '2', name: 'Laptop', price: 60},
+    {id: 1, name: 'Shoes', price: 40},
+    {id: 2, name: 'Laptop', price: 60},
   ];
 
   constructor() { }
